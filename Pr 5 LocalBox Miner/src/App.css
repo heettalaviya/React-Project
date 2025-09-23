@@ -1,0 +1,150 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #e8f5e9; /* light greenish background */
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  margin: 25px 0;
+  font-size: 2.2rem;
+  color: #00695c;
+  letter-spacing: 1px;
+}
+
+/* Form */
+form {
+  width: 520px;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 14px;
+  border: 2px solid #80cbc4;
+  box-shadow: 0 4px 10px rgba(0, 105, 92, 0.15);
+}
+
+form td {
+  padding: 10px;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* Inputs */
+input[type="text"],
+select {
+  width: 95%;
+  padding: 8px;
+  border: 1px solid #80cbc4;
+  border-radius: 6px;
+  outline: none;
+  font-size: 0.9rem;
+  background: #f9f9f9;
+  transition: 0.2s;
+}
+
+input[type="text"]:focus,
+select:focus {
+  border-color: #00897b;
+  box-shadow: 0 0 5px #26a69a55;
+}
+
+/* Radio & Checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+  accent-color: #00897b;
+}
+
+/* Submit button */
+input[type="submit"] {
+  background: #00897b;
+  color: white;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+}
+
+input[type="submit"]:hover {
+  background: #00695c;
+  transform: scale(1.05);
+}
+
+/* Data Table */
+table {
+  width: 92%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background: #ffffff;
+  border: 2px solid #80cbc4;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 105, 92, 0.15);
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #e0f2f1;
+  font-size: 0.95rem;
+}
+
+table th {
+  background: #00897b;
+  color: #fff;
+  font-weight: 600;
+}
+
+table tr:nth-child(even) {
+  background: #f1f8f6;
+}
+
+table tr:hover {
+  background: #e0f2f1;
+}
+
+/* Buttons */
+button {
+  background: #ef5350;
+  color: white;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 0 3px;
+  font-size: 0.85rem;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #c62828;
+  transform: scale(1.05);
+}
+
+/* Update button */
+button:nth-child(2) {
+  background: #43a047;
+}
+
+button:nth-child(2):hover {
+  background: #2e7d32;
+}
+
+/* Images */
+img {
+  border-radius: 8px;
+  border: 2px solid #80cbc4;
+  object-fit: cover;
+}
