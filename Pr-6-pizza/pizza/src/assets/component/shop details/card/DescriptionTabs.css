@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+:root{
+--cream: #fffaf0;
+--gold: #ffb400;
+--text: #6f6f6f;
+}
+
+
+.description-tabs{
+background: var(--cream);
+padding: 80px 0;
+font-family: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+
+/* Centered pill tabs */
+.custom-nav {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 18px;
+margin-bottom: 48px;
+}
+
+
+.custom-nav .nav-link{
+border-radius: 40px;
+padding: 12px 38px;
+margin: 0 6px;
+border: 1px solid rgba(0,0,0,0.06);
+color: var(--text);
+background: transparent;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 1px;
+transition: all 160ms ease;
+min-width: 160px;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+
+.custom-nav .nav-link:hover{ transform: translateY(-2px); }
+
+
+.custom-nav .nav-link.active{
+background: linear-gradient(180deg, var(--gold), #f6a800);
+color: #fff !important;
+border: none;
+box-shadow: 0 6px 0 rgba(0,0,0,0.02) inset;
+}
+
+
+/* Tab content — wide readable text area */
+.tab-content.custom-tab-content{
+max-width: 1100px;
+margin: 0 auto;
+padding: 0 30px;
+}
