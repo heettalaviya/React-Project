@@ -49,7 +49,6 @@ useEffect(() => {
     return errors;
   };
 
-  // ✅ Handle form submit
   const handleSubmit = (e) => {
     e.preventDefault();
     const validationErrors = validationForm(inputForm);
@@ -68,7 +67,8 @@ useEffect(() => {
     navigate("/"); // redirect after save
   };
 
-  // ✅ Handle input change
+
+  
   const handleChange = (e) => {
     const { name, value } = e.target;
     setInputForm({ ...inputForm, [name]: value });
@@ -228,3 +228,4 @@ useEffect(() => {
 };
 
 export default EditProduct;
+
