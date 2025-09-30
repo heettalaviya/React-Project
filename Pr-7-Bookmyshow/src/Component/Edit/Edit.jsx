@@ -64,7 +64,7 @@ useEffect(() => {
     );
 
     setStorageData(updatedData);
-    navigate("/"); // redirect after save
+    navigate("/"); 
   };
 
 
@@ -228,4 +228,5 @@ useEffect(() => {
 };
 
 export default EditProduct;
+
 
