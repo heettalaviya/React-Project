@@ -1,0 +1,40 @@
+{
+  "men": [
+    {
+      "id": "3321",
+      "name": "asdfgh",
+      "desc": "asadfgh",
+      "price": "12345",
+      "categoryType": "bootcut Jeans",
+      "brand": "USPA",
+      "pattern": [
+        "cotton"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/11/Pushpa_2-_The_Rule.jpg"
+    },
+    {
+      "id": "4666",
+      "name": "asdfgh",
+      "desc": "asadfgh",
+      "price": "12345",
+      "categoryType": "bootcut Jeans",
+      "brand": "Raymond",
+      "pattern": [
+        "cotton"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/11/Pushpa_2-_The_Rule.jpg"
+    },
+    {
+      "id": 1587,
+      "name": "ujemd",
+      "desc": "wedf",
+      "price": "20",
+      "categoryType": "bootcut Jeans",
+      "brand": "USPA",
+      "pattern": [
+        "cotton"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/11/Pushpa_2-_The_Rule.jpg"
+    }
+  ]
+}
