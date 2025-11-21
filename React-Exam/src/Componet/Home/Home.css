@@ -1,0 +1,86 @@
+.home-container {
+  max-width: 1300px;
+}
+
+/* Blog Card */
+.blog-card {
+  border-radius: 18px;
+  overflow: hidden;
+  background: #ffffff;
+  transition: 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.12);
+}
+
+/* Image styling */
+.img-wrapper {
+  height: 220px;
+  overflow: hidden;
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.4s;
+}
+
+.blog-card:hover img {
+  transform: scale(1.07);
+}
+
+/* Category Badge */
+.category-badge {
+  background: #000;
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 20px;
+}
+
+/* Title */
+.blog-card h5 {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+/* Description */
+.blog-desc {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+/* Buttons */
+.btn-edit {
+  background: #000;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.btn-edit:hover {
+  opacity: 0.85;
+}
+
+.btn-delete {
+  background: #d70000;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.btn-delete:hover {
+  opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+  .img-wrapper {
+    height: 180px;
+  }
+}
